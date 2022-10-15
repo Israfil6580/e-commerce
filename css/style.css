@@ -194,3 +194,37 @@ nav ul li {
 .custom-row .col-5 img:hover {
     filter: grayscale(0);
 }
+
+.border h1 {
+transition: 5s ease-in-out;
+border-top: 0px solid blue;
+}
+/*  */
+
+/* mobile view */
+@media(max-width: 420px) {
+    .header,
+    .offer {
+        background: #fff;
+    }
+    .col-2{
+        text-align: center;
+    }
+    .col-2 h1{
+        font-size: 2.7rem;
+    }
+    .col-2 p {
+        width: 300px;
+        margin: auto;
+    }
+    .exclusive-btn {
+        margin: 50px auto 0;
+    }
+    .brand {
+        margin: 0;
+    }
+
+    .col-5 img {
+        width: 60px;
+    }
+}
